@@ -3,7 +3,6 @@
 //  Copyright (c) 2020 Tencent, Inc.
 //     All rights reserved.
 //
-// Author: yongbohe@tencent.com
 // Date:   2020/11/30 13:45
 // File:   zstd.cc
 // Desc:
