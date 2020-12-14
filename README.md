@@ -1,6 +1,8 @@
 # zstd_util
 support c++ string, zstd compress，decompress， stream compress, stream decompress
 
+zstd https://github.com/facebook/zstd
+
 ```c++
 // if return code not 0 is error
 static int CompressString(const std::string& src, std::string& dst, int compressionlevel = DEFAULTCOMPRESSLEVEL);
