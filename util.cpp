@@ -125,6 +125,8 @@ int Util::StreamDecompressString(const string& src, string& dst, int compression
       last_ret = ret;
     }
   }
+  
+  ZSTD_freeDCtx(dctx);
 
   if(last_ret != 0) {
     return -3;
