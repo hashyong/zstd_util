@@ -92,6 +92,8 @@ int Util::StreamCompressString(const string& src, string& dst, int compressionle
       break;
     }
   }
+  
+  ZSTD_freeCCtx(cctx);
 
   return 0;
 }
